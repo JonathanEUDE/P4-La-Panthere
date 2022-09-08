@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'UncleEdward';
     src: url('./fonts/Uncle-Edward.otf');
+    font-display: swap;
 }
 body {
     margin: 0;
@@ -854,7 +855,7 @@ h4 {
 #logo{
     display:flex;
     flex-direction: row;
-    font-family: 'UncleEdward';
+    font-family: 'UncleEdward',sans-serif;
     height: 75px;
 }
 
